@@ -1,0 +1,40 @@
+<html>
+<body>
+<ul>
+	<li>
+		Product 1
+		<span class="amount"><input type="text" name="amount" /></span>
+		<span class="cost">$100</span>
+		<span class="discount">20%</span>
+		<span class="final-cost">$80</span>
+		<span class="del"><a href="#">delete</a></span>
+	</li>
+	<li>
+		Product 2 - set
+		<span class="amount"><input type="text" name="amount" /></span>
+		<span class="cost">$100</span>
+		<span class="discount">20%</span>
+		<span class="final-cost">$80</span>
+		<span class="del"><a href="#">delete</a></span>
+		<ul>
+			<li>
+				Product 2-1
+				<span class="amount"><input type="text" name="amount" /></span>
+				<span class="cost">$100</span>
+				<span class="discount">20%</span>
+				<span class="final-cost">$80</span>
+				<span class="del"><a href="#">delete</a></span>
+			</li>
+			<li>
+				Product 2-2
+				<span class="amount"><input type="text" name="amount" /></span>
+				<span class="cost">$100</span>
+				<span class="discount">20%</span>
+				<span class="final-cost">$80</span>
+				<span class="del"><a href="#">delete</a></span>
+			</li>
+		</ul>
+	</li>
+</ul>
+</body>
+</html>
